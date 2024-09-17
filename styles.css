@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+/* CABEÇALHO */
+.cabecalho{
+    background-color: #222222;
+}
+
+.cabecalho .logo .searchbar .user-profile{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-self: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: #f1f1f1;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+}
+
+input{
+    width: 400px;
+    padding: 10px 10px 30px 10px;
+    border-radius: 50px;
+    font-size: 22px;
+    text-align:start;
+    background-color: #444444;
+    color: #777777;
+    font-weight: 500;
+      
+}
+
+
+img{
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+    background-color: #222222;
+}
+header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagem{
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+/* MENU */
+.menu{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #333333;
+    color: #f1f1f1;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #222222;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video-list {
+    background-color: #222222;
+    width: 70%;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.video {
+    padding: 18px;
+    border: 2px solid #FFFFFF;
+    margin: 5px;
+    background-color: #333333;
+    color: #f1f1f1;
+    text-align: center;
+    width: 450px;
+    height: 400px;
+    
+}
+
+.recommendations {
+    background-color: #222222;
+    padding: 20px;
+    width: 30%;
+  
+}
+
+.recommendation {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 2px solid #FFFFFF;
+    background-color: #222222;
+    color: #f1f1f1;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 250px;
+   
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
